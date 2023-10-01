@@ -1,0 +1,39 @@
+/* this a just a placeholder for a comment */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+html{
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+    padding-left: 5%;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgba(82, 38, 140, 0.692);
+    text-align: centre;
+}
+
+#skills-list{
+    list-style: decimal-leading-zero;
+    color: rgb(229, 14, 229);
+}
+
+.skills-list{
+    color: #25c07f;
+    /* This can be uncommented as it is long to type out and not main learning goal */
+    text-shadow:
+      0 0 7px rgb(180, 2, 162),
+      0 0 10px rgb(180, 2, 162),
+      0 0 21px rgb(180, 2, 162),
+      0 0 42px #fff,
+      0 0 82px #fff,
+      0 0 92px #fff,
+      0 0 102px #fff;
+}
+
+body{
+    background-color: lightblue;
+    background-image: linear-gradient(62deg, lightblue 5%, lightpink 100%)
+}
